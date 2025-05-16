@@ -1,6 +1,6 @@
 context:
   name: cherab-lhd
-  version: "0.1.1"
+  version: "0.2.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/munechika-koyo/cherab_lhd/archive/v${{ version }}.tar.gz
-  sha256: 256d8fce5e331d0929be6726e04e9a6627866700d4529dee4e22118175d4af67
+  sha256: 4eb52d95b4fc2d0037cd37969a5fe8676840f1ec8c70c09ff4cf98eacf2bd59b
 
 build:
   skip:
@@ -16,7 +16,7 @@ build:
     - match(python, ">3.12")
     - match(python, "<3.10")
   script: python -m pip install --no-deps --no-build-isolation .
-  number: 2
+  number: 0
 
 requirements:
   build:
