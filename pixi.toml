@@ -7,7 +7,7 @@
 
 [project]
 name = "cherab-lhd-feedstock"
-version = "3.47.1"  # conda-smithy version used to generate this file
+version = "3.48.1"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/cherab-lhd-feedstock"
 authors = ["@conda-forge/cherab-lhd"]
 channels = ["conda-forge"]
