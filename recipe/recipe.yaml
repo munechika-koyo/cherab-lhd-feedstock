@@ -28,7 +28,6 @@ requirements:
         - python
         - cross-python_${{ target_platform }}
         - pkg-config
-        - meson-python
         - cython
         - numpy
         - cherab
